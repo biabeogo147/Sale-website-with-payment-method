@@ -10,7 +10,7 @@ class SignatureHash extends Model
         ksort($requestDataArray);
 
         $hashString = "";
-        $checkSumKey = "CzXoy4LBJfbeCMtHr2XRddfBnJEevA";
+        $checkSumKey = "";
         foreach ($requestDataArray as $key => $value) {
             if (is_bool($value))
                 $value = $value ? "true" : "false";
