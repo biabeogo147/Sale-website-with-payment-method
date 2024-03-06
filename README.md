@@ -1,4 +1,8 @@
 ```
+Create your Alepay account on "https://alepay-merchant.nganluong.vn/vi/dashboard/login".
+Get your checksumkey and add it to checkSumKey at line 13 in common\models\SignatureHash.php
+Get your tokenkey and add it to tokenKey at line 21 in frontend\models\Order.php
+
 Using "docker-compose up --build" to up this project onto your docker.
 In Backend terminal, using "Yii migrate" to create database.
 
