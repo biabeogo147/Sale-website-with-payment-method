@@ -18,7 +18,7 @@ class Order extends Model
     public $buyerCountry = "none";
 
     public $requestDataArray = array(
-        "tokenKey" => "GNW5huNJBxvha4WgmdJa0pxkQgQWMc",
+        "tokenKey" => "",
         "orderCode" => "random",
         "customMerchantId" => null,
         "amount" => 1000000,
