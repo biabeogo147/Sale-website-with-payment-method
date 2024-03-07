@@ -1,0 +1,54 @@
+{
+    "name":"codeception/module-yii2",
+    "description":"Codeception module for Yii2 framework",
+    "keywords":["codeception", "yii2"],
+    "homepage":"https://codeception.com/",
+    "type":"library",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Alexander Makarov"
+        },
+        {
+            "name":"Sam Mouse"
+        },
+        {
+            "name":"Michael Bodnarchuk"
+        }
+    ],
+    "minimum-stability": "RC",
+    "require": {
+        "php": "^8.0",
+        "codeception/codeception": "^5.0.8",
+        "codeception/lib-innerbrowser": "^3.0 | ^4.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2": "dev-master",
+        "yiisoft/yii2-app-advanced": "dev-master",
+        "codeception/verify": "^3.0",
+        "codemix/yii2-localeurls": "^1.7",
+        "codeception/module-asserts": "^3.0",
+        "codeception/module-filesystem": "^3.0"
+    },
+    "autoload":{
+        "classmap": ["src/"]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "vendor/yiisoft/yii2/Yii.php",
+            "tests/cases"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        },
+        "classmap-authoritative": true
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

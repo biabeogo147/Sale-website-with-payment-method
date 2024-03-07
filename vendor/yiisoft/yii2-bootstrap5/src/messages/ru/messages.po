@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "yii/bootstrap5"
+msgid "Button"
+msgstr "Кнопка"
+
+msgctxt "yii/bootstrap5"
+msgid "Close"
+msgstr "Закрыть"
+
+msgctxt "yii/bootstrap5"
+msgid "Show"
+msgstr "Показать"
+
+msgctxt "yii/bootstrap5"
+msgid "Toggle Dropdown"
+msgstr "Переключить навигацию"
+
+msgctxt "yii/bootstrap5"
+msgid "Toggle navigation"
+msgstr "Переключить навигацию"

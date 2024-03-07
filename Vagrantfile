@@ -38,7 +38,7 @@ if options['github_token'].nil? || options['github_token'].to_s.length != 40
   exit
 end
 
-# vagrant configurate
+# vagrant conmigrfigurate
 Vagrant.configure(2) do |config|
   # select the box
   config.vm.box = 'bento/ubuntu-18.04'
