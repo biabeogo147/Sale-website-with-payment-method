@@ -81,8 +81,8 @@ Then open alepay-backend terminal to run ```php yii migrate``` to create table i
   <img src="demo/cart.jpg" width=800><br/>
   -------------------------------------<br/>
   Enter customer's information.<br/>
-  <img src="demo/confirm_order.jpg" width=600><br/>
-  <img src="demo/confirm_order_2.jpg" width=600><br/>
+  <img src="demo/confirm_order.jpg" width=400><br/>
+  <img src="demo/confirm_order_2.jpg" width=400><br/>
   <img src="demo/payment.jpg" width=800><br/><br/><br/>
 </p>
 
