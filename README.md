@@ -38,10 +38,9 @@ Then open alepay-backend terminal to run ```php yii migrate``` to create table i
 <p align="center">
   <img src="demo/1.jpg" width=800><br/>
   After sign up, you will see this notfication<br/>
-  <img src="demo/thanks for registration.jpg" width=800><br/>
-  In phpmyadmin, User table<br/>
-  <img src="demo/user in db.jpg" width=800><br/>
-  User status equals 9 if email is not confirmed.<br/><br/>
+  <img src="demo/thanks for registration.jpg" width=400><br/>
+  In phpmyadmin, User table: status equals 9 if email is not confirmed.<br/>
+  <img src="demo/user in db.jpg" width=400><br/>
 </p>
   
 <p align="center">
