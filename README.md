@@ -74,20 +74,22 @@ Then open alepay-backend terminal to run ```php yii migrate``` to create table i
 
 ## Customer purchase product on ```localhost:20080```
 <p align="center">
+  Click on 'Thêm vào giỏ hàng' to add product to cart.<br/>
   <img src="demo/list_product_frontend.jpg" width=800><br/>
+  -------------------------------------<br/>
+  Click on 'Thanh toán' to purchase.<br/>
   <img src="demo/cart.jpg" width=800><br/>
+  -------------------------------------<br/>
+  Enter customer's information.<br/>
   <img src="demo/confirm_order.jpg" width=800><br/>
   <img src="demo/confirm_order_2.jpg" width=800><br/>
   <img src="demo/payment.jpg" width=800><br/><br/><br/>
 </p>
 
+## Bonus: Promethus and Grafana
 <p align="center">
-  <img src="demo/spanish_output.jpg" width=800><br/>
-  <i>Spanish</i>
-</p>
-
-<p align="center">
-  <img src="demo/russian_output.jpg" width=800><br/>
-  <i>Russian</i>
+  <img src="demo/prometheus.jpg" width=800><br/>
+  -------------------------------------<br/>
+  <img src="demo/grafana.jpg" width=800><br/>
 </p>
 
