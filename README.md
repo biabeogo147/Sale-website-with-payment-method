@@ -28,39 +28,44 @@ Then open alepay-backend terminal to run ```php yii migrate``` to create table i
   <img src="demo/applying.jpg" width=800><br/>
   <img src="demo/5 migrations .jpg" width=800><br/>
   <img src="demo/phpmyadmin.jpg" width=800><br/>
+  Login to phpmyadmin to control your data server
 </p>
 
 Sign up account in ```localhost:20080```.
 <p align="center">
-  <img src="demo/1.jpg"><br/>
-  <img src="demo/thanks for registration.jpg"><br/>
-  <img src="demo/user in db.jpg"><br/>
+  <img src="demo/1.jpg" width=800><br/>
+  After sign up, you will see this notfication
+  <img src="demo/thanks for registration.jpg" width=800><br/>
+  In phpmyadmin, User table
+  <img src="demo/user in db.jpg" width=800><br/>
+  User status equals 9 if email is not confirmed
 </p>
 
 To confirm email, you open /app/frontend/runtime/mail in Docker Desktop.
 <p align="center">
-  <img src="demo/mail.jpg"><br/>
-  <img src="demo/paste link.jpg"><br/>
-  <img src="demo/mail confirmed.jpg"><br/>
-  <img src="demo/user in db _ 10.jpg"><br/>
+  <img src="demo/mail.jpg" width=800><br/>
+  <img src="demo/paste link.jpg" width=800><br/>
+  <img src="demo/mail confirmed.jpg" width=800><br/>
+  <img src="demo/user in db _ 10.jpg" width=800><br/>
+  User status equals 10 after email is confirmed
 </p>
 
 Login ```localhost:21080``` and push merchant product onto cart.
 <p align="center">
-  <img src="demo/product.jpg"><br/>
-  <img src="demo/create_product.jpg"><br/>
-  <img src="demo/edit_product.jpg"><br/>
-  <img src="demo/view_product.jpg"><br/>
-  <img src="demo/list_product.jpg"><br/>
+  <img src="demo/product.jpg" width=800><br/>
+  <img src="demo/create_product.jpg" width=800><br/>
+  <img src="demo/edit_product.jpg" width=800><br/>
+  <img src="demo/view_product.jpg" width=800><br/>
+  <img src="demo/list_product.jpg" width=800><br/>
 </p>
 
 On site ```localhost:20080```.
 <p align="center">
-  <img src="demo/list_product_frontend.jpg"><br/>
-  <img src="demo/cart.jpg"><br/>
-  <img src="demo/confirm_order.jpg"><br/>
-  <img src="demo/confirm_order_2.jpg"><br/>
-  <img src="demo/payment.jpg"><br/>
+  <img src="demo/list_product_frontend.jpg" width=800><br/>
+  <img src="demo/cart.jpg" width=800><br/>
+  <img src="demo/confirm_order.jpg" width=800><br/>
+  <img src="demo/confirm_order_2.jpg" width=800><br/>
+  <img src="demo/payment.jpg" width=800><br/>
 </p>
 
 <p align="center">
