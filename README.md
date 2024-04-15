@@ -21,21 +21,21 @@ Grafana     :    Visualize your system metrics.
 ```
 
 ## Introduction
+Using ```docker-compose up --build``` to up this project onto your Docker.
+Then open alepay-backend terminal to run ```php yii migrate``` to create table in your database.
 <p align="center">
-  Using ```docker-compose up --build``` to up this project onto your Docker.<br/>
-  Then open alepay-backend terminal to run ```php yii migrate``` to create table in your database.<br/>
   <img src="demo/yii migrate.jpg" width=800><br/>
   <img src="demo/applying.jpg" width=800><br/>
   <img src="demo/5 migrations .jpg" width=800><br/><br/>
 </p>
 
+## Login to phpmyadmin to control your data server.
 <p align="center">
-  Login to phpmyadmin to control your data server<br/>
   <img src="demo/phpmyadmin.jpg" width=800><br/><br/>
 </p>
 
+## Sign up account in ```localhost:20080```
 <p align="center">
-  Sign up account in ```localhost:20080```.<br/>
   <img src="demo/1.jpg" width=800><br/>
   After sign up, you will see this notfication<br/>
   <img src="demo/thanks for registration.jpg" width=800><br/>
