@@ -26,7 +26,8 @@ Grafana     :    Visualize your system metrics.
   Then open alepay-backend terminal to run ```php yii migrate``` to create table in your database.<br/>
   <img src="demo/yii migrate.jpg" width=800><br/>
   <img src="demo/applying.jpg" width=800><br/>
-  <img src="demo/5 migrations .jpg" width=800><br/>
+  <img src="demo/5 migrations .jpg" width=800><br/><br/>
+  
   Login to phpmyadmin to control your data server<br/>
   <img src="demo/phpmyadmin.jpg" width=800><br/><br/>
   
