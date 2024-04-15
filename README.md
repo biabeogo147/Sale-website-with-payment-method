@@ -50,11 +50,11 @@ Then open alepay-backend terminal to run ```php yii migrate``` to create table i
   Enter confirm link onto browser.<br/>
   <img src="demo/paste link.jpg" width=800><br/>
   <img src="demo/mail confirmed.jpg" width=800><br/>
+  User status equals 10 after email is confirmed.<br/>
   <img src="demo/user in db _ 10.jpg" width=800><br/>
-  User status equals 10 after email is confirmed.<br/><br/>
 </p>
 
-## Login ```localhost:21080``` and push merchant product onto cart.
+## Login ```localhost:21080``` and push merchant's product onto cart.
 <p align="center">
   <img src="demo/product.jpg" width=800><br/>
   <img src="demo/create_product.jpg" width=800><br/>
@@ -63,7 +63,7 @@ Then open alepay-backend terminal to run ```php yii migrate``` to create table i
   <img src="demo/list_product.jpg" width=800><br/>
 </p>
 
-On site ```localhost:20080```.
+## Customer purchase product on site ```localhost:20080```
 <p align="center">
   <img src="demo/list_product_frontend.jpg" width=800><br/>
   <img src="demo/cart.jpg" width=800><br/>
