@@ -27,24 +27,30 @@ Grafana     :    Visualize your system metrics.
   <img src="demo/yii migrate.jpg" width=800><br/>
   <img src="demo/applying.jpg" width=800><br/>
   <img src="demo/5 migrations .jpg" width=800><br/><br/>
-  
+</p>
+
+<p align="center">
   Login to phpmyadmin to control your data server<br/>
   <img src="demo/phpmyadmin.jpg" width=800><br/><br/>
-  
+</p>
+
+<p align="center">
   Sign up account in ```localhost:20080```.<br/>
   <img src="demo/1.jpg" width=800><br/>
   After sign up, you will see this notfication<br/>
   <img src="demo/thanks for registration.jpg" width=800><br/>
   In phpmyadmin, User table<br/>
   <img src="demo/user in db.jpg" width=800><br/>
-  User status equals 9 if email is not confirmed<br/><br/>
-
+  User status equals 9 if email is not confirmed.<br/><br/>
+</p>
+  
+<p align="center">
   To confirm email, you open /app/frontend/runtime/mail in Docker Desktop.
   <img src="demo/mail.jpg" width=800><br/>
   <img src="demo/paste link.jpg" width=800><br/>
   <img src="demo/mail confirmed.jpg" width=800><br/>
   <img src="demo/user in db _ 10.jpg" width=800><br/>
-  User status equals 10 after email is confirmed<br/>
+  User status equals 10 after email is confirmed.<br/><br/>
 </p>
 
 Login ```localhost:21080``` and push merchant product onto cart.
