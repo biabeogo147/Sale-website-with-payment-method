@@ -38,21 +38,23 @@ Then open alepay-backend terminal to run ```php yii migrate``` to create table i
 <p align="center">
   <img src="demo/1.jpg" width=800><br/>
   After sign up, you will see this notfication<br/>
-  <img src="demo/thanks for registration.jpg" width=400><br/>
+  <img src="demo/thanks for registration.jpg" width=600><br/>
   In phpmyadmin, User table: status equals 9 if email is not confirmed.<br/>
-  <img src="demo/user in db.jpg" width=400><br/>
+  <img src="demo/user in db.jpg" width=600><br/>
 </p>
-  
+
+## Confirm email
 <p align="center">
-  To confirm email, you open /app/frontend/runtime/mail in Docker Desktop.
+  Open /app/frontend/runtime/mail in Docker Desktop.<br/>
   <img src="demo/mail.jpg" width=800><br/>
+  Enter confirm link onto browser.<br/>
   <img src="demo/paste link.jpg" width=800><br/>
   <img src="demo/mail confirmed.jpg" width=800><br/>
   <img src="demo/user in db _ 10.jpg" width=800><br/>
   User status equals 10 after email is confirmed.<br/><br/>
 </p>
 
-Login ```localhost:21080``` and push merchant product onto cart.
+## Login ```localhost:21080``` and push merchant product onto cart.
 <p align="center">
   <img src="demo/product.jpg" width=800><br/>
   <img src="demo/create_product.jpg" width=800><br/>
