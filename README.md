@@ -1,4 +1,4 @@
-# Sale website with Alepay payment method
+# Sale website with payment method
 
 ```
 Create your Alepay account on "https://alepay-merchant.nganluong.vn/vi/dashboard/login".
